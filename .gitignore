@@ -1,0 +1,41 @@
+# --- Operating System Files ---
+.DS_Store          # macOS folder metadata
+Thumbs.db          # Windows thumbnail cache
+desktop.ini        # Windows folder settings
+
+# --- Editor/IDE Files ---
+.vscode/           # VS Code settings
+.idea/             # JetBrains IDE (IntelliJ, PyCharm, etc.)
+*.swp              # Vim swap files
+*.sublime-workspace
+
+# --- Dependency Folders ---
+node_modules/      # Node.js packages
+venv/              # Python virtual environment
+__pycache__/       # Python bytecode
+bin/               # Compiled binaries
+obj/               # Compiled objects (C#, etc.)
+
+# --- Environment Files ---
+.env               # Environment variables/secrets
+*.env.local        # Local environment overrides
+*.key              # Encryption keys
+
+# --- Build/Output Files ---
+dist/              # Bundled/compiled code (e.g., Webpack)
+build/             # Build artifacts (e.g., C++, Java)
+*.log              # Log files
+*.exe              # Executables
+*.class            # Java bytecode
+
+# --- Testing/Code Coverage ---
+coverage/          # Test coverage reports
+.junit.xml         # Test results
+
+# --- Package Manager Files ---
+yarn-error.log     # Yarn logs
+package-lock.json  # NPM (use if you prefer Yarn)
+yarn.lock          # Yarn lockfile
+
+# --- OS-specific ---
+# (Add OS-specific rules as needed)
